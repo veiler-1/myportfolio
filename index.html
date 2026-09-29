@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ahmed Mohamed Saad | Portfolio - AI, Mobile Engineering & Computer Networks</title>
+  <meta name="description" content="Portfolio of Ahmed Mohamed Saad - 3rd Year Artificial Intelligence Student at Kafrelsheikh University, Flutter Mobile App Developer, Network Infrastructure Engineer, and ML Developer." />
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Particle Background & Grid Overlay -->
+  <canvas id="sparkle-canvas"></canvas>
+  <div class="bg-grid-overlay"></div>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="nav-brand">
+        <div class="nav-brand-logo">AS</div>
+        <div>
+          <span>Ahmed Mohamed</span>
+          <span class="text-accent" style="font-size: 0.76rem; display: block; font-weight: 600;">AI & Software Engineer</span>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#timeline" class="nav-link">Experience</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="btn btn-outline btn-sm open-pdf-modal">
+          <i class="fa-solid fa-file-pdf text-accent"></i> PDF Deck
+        </button>
+        <a href="#contact" class="btn btn-primary btn-sm">
+          <i class="fa-solid fa-paper-plane"></i> Let's Talk
+        </a>
+        <button class="mobile-toggle" aria-label="Open Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="badge-soft">
+          <span class="pulse-dot"></span> 3rd Year AI Student @ Kafrelsheikh University
+        </div>
+
+        <h1 class="hero-title">
+          I'm <span class="gradient-text">Ahmed Mohamed Saad</span>
+        </h1>
+
+        <p class="hero-description">
+          A passionate Artificial Intelligence student specializing in Cross-Platform Mobile Application Development (Flutter), Enterprise Computer Networks (Cisco Routing & Switching), Machine Learning, and Backend Engineering.
+        </p>
+
+        <div class="hero-stats-row">
+          <div class="hero-stat-card glass-card">
+            <div class="hero-stat-num">3+</div>
+            <div class="hero-stat-lbl">Years Coding</div>
+          </div>
+          <div class="hero-stat-card glass-card">
+            <div class="hero-stat-num">10+</div>
+            <div class="hero-stat-lbl">Core Tech Skills</div>
+          </div>
+          <div class="hero-stat-card glass-card">
+            <div class="hero-stat-num">3</div>
+            <div class="hero-stat-lbl">Leadership Roles</div>
+          </div>
+        </div>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            <i class="fa-solid fa-compass"></i> Explore Featured Work
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i class="fa-solid fa-envelope"></i> Get In Touch
+          </a>
+          <button class="btn btn-outline open-pdf-modal">
+            <i class="fa-solid fa-file-lines"></i> View PDF Presentation
+          </button>
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper">
+        <i class="fa-solid fa-sparkles sparkle-icon sparkle-1"></i>
+        <i class="fa-solid fa-code sparkle-icon sparkle-2"></i>
+        
+        <div class="hero-image-card">
+          <img src="assets/profile_hero.jpg" alt="Ahmed Mohamed Saad" />
+          <div class="hero-card-badge">
+            <i class="fa-solid fa-laptop-code"></i>
+            <div class="hero-card-badge-info">
+              <h4>Ahmed Mohamed Saad</h4>
+              <p>Available for Software & AI Projects</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT SECTION ==================== -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge-soft">💡 About Me</span>
+        <h2 class="section-title gradient-text">Engineering Purposeful Software & AI Systems</h2>
+        <p class="section-subtitle">Bridging theoretical artificial intelligence concepts with practical, production-ready software implementations.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-img-box glass-card">
+          <img src="assets/profile_about.jpg" alt="Ahmed Mohamed Saad About" />
+        </div>
+
+        <div class="about-text">
+          <p class="about-para">
+            I am a third-year Artificial Intelligence student at Kafrelsheikh University, deeply passionate about Artificial Intelligence, Mobile Application Development, Backend Engineering, and Computer Networks.
+          </p>
+          <p class="about-para">
+            I enjoy transforming innovative concepts into real-world applications, continuously mastering cutting-edge software technologies, and engineering scalable, efficient software that addresses genuine challenges.
+          </p>
+
+          <div class="about-highlights">
+            <div class="about-hl-item">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <div>
+                <h5>Kafrelsheikh University</h5>
+                <p>Faculty of AI (2023 – 2027)</p>
+              </div>
+            </div>
+            <div class="about-hl-item">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+              <div>
+                <h5>Mobile Apps</h5>
+                <p>Flutter, Dart, BLoC & Clean Arch</p>
+              </div>
+            </div>
+            <div class="about-hl-item">
+              <i class="fa-solid fa-network-wired"></i>
+              <div>
+                <h5>Network Design</h5>
+                <p>Cisco Packet Tracer, Subnets & VLANs</p>
+              </div>
+            </div>
+            <div class="about-hl-item">
+              <i class="fa-solid fa-brain"></i>
+              <div>
+                <h5>AI & Machine Learning</h5>
+                <p>ML Models, Data Pipelines & AI Head</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== TIMELINE SECTION ==================== -->
+  <section id="timeline" class="timeline">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge-soft">📜 Academic & Professional Journey</span>
+        <h2 class="section-title gradient-text">Education, Internships & Leadership</h2>
+        <p class="section-subtitle">A chronological view of my academic milestones, technical training, and community leadership roles.</p>
+      </div>
+
+      <div class="timeline-grid">
+        <!-- Education Column -->
+        <div class="timeline-column">
+          <div class="timeline-col-header">
+            <i class="fa-solid fa-building-columns"></i>
+            <h3>Academic Background</h3>
+          </div>
+
+          <div class="timeline-card glass-card">
+            <div class="timeline-card-header">
+              <div>
+                <div class="timeline-title">Bachelor of Artificial Intelligence</div>
+                <div class="timeline-org">Faculty of Artificial Intelligence, Kafrelsheikh University</div>
+              </div>
+              <span class="timeline-date">2023 – Present (Exp. 2027)</span>
+            </div>
+            <p class="timeline-desc">
+              Currently pursuing a Bachelor's degree in Artificial Intelligence with an emphasis on Machine Learning, Mobile Application Development, Computer Networks, and System Administration. Acquired hands-on experience by constructing real-world software applications and expanding domain knowledge.
+            </p>
+            <div class="timeline-tags">
+              <span class="timeline-tag">Machine Learning</span>
+              <span class="timeline-tag">Computer Networks</span>
+              <span class="timeline-tag">System Admin</span>
+              <span class="timeline-tag">Data Structures</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience Column -->
+        <div class="timeline-column">
+          <div class="timeline-col-header">
+            <i class="fa-solid fa-briefcase"></i>
+            <h3>Training & Experience</h3>
+          </div>
+
+          <!-- NTI -->
+          <div class="timeline-card glass-card">
+            <div class="timeline-card-header">
+              <div>
+                <div class="timeline-title">Mobile Application Development Trainee</div>
+                <div class="timeline-org">National Telecommunication Institute (NTI)</div>
+              </div>
+              <span class="timeline-date">Professional Training</span>
+            </div>
+            <p class="timeline-desc">
+              Completed intensive hands-on training in Flutter and cross-platform mobile development. Built robust mobile applications integrated with RESTful APIs and clean state management.
+            </p>
+            <div class="timeline-tags">
+              <span class="timeline-tag">Flutter</span>
+              <span class="timeline-tag">REST APIs</span>
+              <span class="timeline-tag">Clean Architecture</span>
+            </div>
+          </div>
+
+          <!-- IEEE KSB -->
+          <div class="timeline-card glass-card">
+            <div class="timeline-card-header">
+              <div>
+                <div class="timeline-title">Network Committee Member</div>
+                <div class="timeline-org">IEEE Kafrelsheikh Student Branch (IEEE KSB)</div>
+              </div>
+              <span class="timeline-date">Technical Activity</span>
+            </div>
+            <p class="timeline-desc">
+              Participated in hands-on networking workshops and technical labs. Gained in-depth practical knowledge of computer network infrastructure, routing concepts, and network design.
+            </p>
+            <div class="timeline-tags">
+              <span class="timeline-tag">Computer Networks</span>
+              <span class="timeline-tag">Infrastructure</span>
+              <span class="timeline-tag">Workshops</span>
+            </div>
+          </div>
+
+          <!-- STARKS -->
+          <div class="timeline-card glass-card">
+            <div class="timeline-card-header">
+              <div>
+                <div class="timeline-title">AI Head & Team Lead</div>
+                <div class="timeline-org">STARKS Student Activity</div>
+              </div>
+              <span class="timeline-date">Leadership Role</span>
+            </div>
+            <p class="timeline-desc">
+              Led the artificial intelligence team, organized technical workshops and mentorship sessions, and guided team members through AI fundamentals and practical project development.
+            </p>
+            <div class="timeline-tags">
+              <span class="timeline-tag">AI Leadership</span>
+              <span class="timeline-tag">Mentorship</span>
+              <span class="timeline-tag">Machine Learning</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SKILLS SECTION ==================== -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge-soft">🛠️ Technical Matrix</span>
+        <h2 class="section-title gradient-text">Technologies & Domain Competencies</h2>
+        <p class="section-subtitle">Core technical stack spanning AI, Mobile Engineering, Network Architecture, and Backend Systems.</p>
+      </div>
+
+      <!-- Filters -->
+      <div class="skills-filter">
+        <button class="filter-btn active" data-filter="all">All Skills</button>
+        <button class="filter-btn" data-filter="ai">AI & Machine Learning</button>
+        <button class="filter-btn" data-filter="mobile">Mobile Development</button>
+        <button class="filter-btn" data-filter="networking">Networking</button>
+        <button class="filter-btn" data-filter="backend">Backend & Tools</button>
+      </div>
+
+      <div class="skills-grid">
+        <!-- AI 1 -->
+        <div class="skill-card glass-card" data-category="ai">
+          <div class="skill-header">
+            <div class="skill-icon-title">
+              <i class="fa-solid fa-robot"></i>
+              <div class="skill-name">Machine Learning</div>
+            </div>
+            <div class="skill-level-pct">88%</div>
+          </div>
+          <div class="progress-bar-track">
+            <div class="progress-bar-fill" data-percentage="88"></div>
+          </div>
+          <div class="skill-tags">
+            <span class="timeline-tag">Supervised Learning</span>
+            <span class="timeline-tag">Python</span>
+          </div>
+        </div>
+
+        <!-- AI 2 -->
+        <div class="skill-card glass-card" data-category="ai">
+          <div class="skill-header">
+            <div class="skill-icon-title">
+              <i class="fa-solid fa-brain"></i>
+              <div class="skill-name">AI Fundamentals & Projects</div>
+            </div>
+            <div class="skill-level-pct">92%</div>
+          </div>
+          <div class="progress-bar-track">
+            <div class="progress-bar-fill" data-percentage="92"></div>
+          </div>
+          <div class="skill-tags">
+            <span class="timeline-tag">AI Architecture</span>
+            <span class="timeline-tag">Model Pipelines</span>
+          </div>
+        </div>
+
+        <!-- Mobile 1 -->
+        <div class="skill-card glass-card" data-category="mobile">
+          <div class="skill-header">
+            <div class="skill-icon-title">
+              <i class="fa-brands fa-flutter"></i>
+              <div class="skill-name">Flutter & Dart</div>
+            </div>
+            <div class="skill-level-pct">95%</div>
+          </div>
+          <div class="progress-bar-track">
+            <div class="progress-bar-fill" data-percentage="95"></div>
+          </div>
+          <div class="skill-tags">
+            <span class="timeline-tag">Cross-Platform</span>
+            <span class="timeline-tag">Responsive UI</span>
+          </div>
+        </div>
+
+        <!-- Mobile 2 -->
+        <div class="skill-card glass-card" data-category="mobile">
+          <div class="skill-header">
+            <div class="skill-icon-title">
+              <i class="fa-solid fa-cubes"></i>
+              <div class="skill-name">BLoC & Clean Architecture</div>
+            </div>
+            <div class="skill-level-pct">90%</div>
+          </div>
+          <div class="progress-bar-track">
+            <div class="progress-bar-fill" data-percentage="90"></div>
+          </div>
+          <div class="skill-tags">
+            <span class="timeline-tag">State Management</span>
+            <span class="timeline-tag">Scalable Design</span>
+          </div>
+        </div>
+
+        <!-- Mobile 3 -->
+        <div class="skill-card glass-card" data-category="mobile">
+          <div class="skill-header">
+            <div class="skill-icon-title">
+              <i class="fa-solid fa-cloud-arrow-down"></i>
+              <div class="skill-name">REST API Integration</div>
+            </div>
+            <div class="skill-level-pct">92%</div>
+          </div>
+          <div class="progress-bar-track">
+            <div class="progress-bar-fill" data-percentage="92"></div>
+          </div>
+          <div class="skill-tags">
+            <span class="timeline-tag">Dio Library</span>
+            <span class="timeline-tag">JSON Parsing</span>
+          </div>
+        </div>
+
+        <!-- Networking 1 -->
+        <div class="skill-card glass-card" data-category="networking">
+          <div class="skill-header">
+            <div class="skill-icon-title">
+              <i class="fa-solid fa-network-wired"></i>
+              <div class="skill-name">Computer Networks</div>
+            </div>
+            <div class="skill-level-pct">88%</div>
+          </div>
+          <div class="progress-bar-track">
+            <div class="progress-bar-fill" data-percentage="88"></div>
+          </div>
+          <div class="skill-tags">
+            <span class="timeline-tag">IP Subnetting</span>
+            <span class="timeline-tag">Cisco Packet Tracer</span>
+          </div>
+        </div>
+
+        <!-- Networking 2 -->
+        <div class="skill-card glass-card" data-category="networking">
+          <div class="skill-header">
+            <div class="skill-icon-title">
+              <i class="fa-solid fa-diagram-project"></i>
+              <div class="skill-name">Network Infrastructure & Design</div>
+            </div>
+            <div class="skill-level-pct">85%</div>
+          </div>
+          <div class="progress-bar-track">
+            <div class="progress-bar-fill" data-percentage="85"></div>
+          </div>
+          <div class="skill-tags">
+            <span class="timeline-tag">VLAN Segmentation</span>
+            <span class="timeline-tag">Router Configuration</span>
+          </div>
+        </div>
+
+        <!-- Backend & Tools -->
+        <div class="skill-card glass-card" data-category="backend">
+          <div class="skill-header">
+            <div class="skill-icon-title">
+              <i class="fa-solid fa-server"></i>
+              <div class="skill-name">Backend & REST APIs</div>
+            </div>
+            <div class="skill-level-pct">82%</div>
+          </div>
+          <div class="progress-bar-track">
+            <div class="progress-bar-fill" data-percentage="82"></div>
+          </div>
+          <div class="skill-tags">
+            <span class="timeline-tag">API Design</span>
+            <span class="timeline-tag">System Admin</span>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-card glass-card" data-category="backend">
+          <div class="skill-header">
+            <div class="skill-icon-title">
+              <i class="fa-brands fa-git-alt"></i>
+              <div class="skill-name">Git & GitHub & Problem Solving</div>
+            </div>
+            <div class="skill-level-pct">90%</div>
+          </div>
+          <div class="progress-bar-track">
+            <div class="progress-bar-fill" data-percentage="90"></div>
+          </div>
+          <div class="skill-tags">
+            <span class="timeline-tag">Version Control</span>
+            <span class="timeline-tag">Data Structures</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PROJECTS SHOWCASE ==================== -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge-soft">🚀 Featured Projects</span>
+        <h2 class="section-title gradient-text">Selected Engineering Work</h2>
+        <p class="section-subtitle">Detailed case studies of enterprise network architectures and mobile applications.</p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1: Bank Network -->
+        <div class="project-card glass-card">
+          <div class="project-img-holder">
+            <img src="assets/project_network_cisco.jpg" alt="Bank Network Infrastructure Project" />
+            <span class="project-overlay-badge">Cisco Packet Tracer</span>
+          </div>
+          <div class="project-body">
+            <div class="project-cat">Networking & Infrastructure</div>
+            <h3 class="project-title">Bank Enterprise Network Infrastructure</h3>
+            <p class="project-desc">
+              Designed a multi-branch bank network linking a Main Branch in Cairo (New Cairo – 5th Settlement) containing 4 sub-departments (103 PCs) and a Secondary Branch in Alexandria (2 departments, 22 PCs) with isolated VLANs and secure routing.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-pill">Cisco Packet Tracer</span>
+              <span class="tech-pill">Subnetting / VLSM</span>
+              <span class="tech-pill">VLAN Isolation</span>
+              <span class="tech-pill">Multi-Branch Routing</span>
+            </div>
+            <button class="btn btn-primary open-project-modal" data-project="network-bank">
+              <i class="fa-solid fa-circle-info"></i> Explore Network Specs
+            </button>
+          </div>
+        </div>
+
+        <!-- Project 2: Flutter App -->
+        <div class="project-card glass-card">
+          <div class="project-img-holder">
+            <img src="assets/project_flutter_mockup.jpg" alt="Flutter E-Commerce App Project" />
+            <span class="project-overlay-badge">Flutter & BLoC</span>
+          </div>
+          <div class="project-body">
+            <div class="project-cat">Mobile Application</div>
+            <h3 class="project-title">Modern E-Commerce Mobile Application</h3>
+            <p class="project-desc">
+              A modern, responsive cross-platform e-commerce mobile app built with Flutter. Features intuitive product browsing, user reviews, shopping cart management, BLoC state management, and REST API integration with Clean Architecture.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-pill">Flutter</span>
+              <span class="tech-pill">Dart</span>
+              <span class="tech-pill">Dio REST API</span>
+              <span class="tech-pill">BLoC Pattern</span>
+              <span class="tech-pill">Clean Architecture</span>
+            </div>
+            <button class="btn btn-primary open-project-modal" data-project="flutter-ecommerce">
+              <i class="fa-solid fa-mobile-screen"></i> View App Details & Screens
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT SECTION ==================== -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge-soft">📬 Get In Touch</span>
+        <h2 class="section-title gradient-text">Let's Connect & Collaborate</h2>
+        <p class="section-subtitle">Feel free to reach out via Phone, WhatsApp, GitHub, LinkedIn, or Email for opportunities and projects.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Cards -->
+        <div class="contact-info-cards">
+          <!-- Phone -->
+          <a href="tel:+201090237797" class="contact-card glass-card">
+            <div class="contact-card-icon">
+              <i class="fa-solid fa-phone-volume"></i>
+            </div>
+            <div class="contact-card-details">
+              <h5>Phone Number</h5>
+              <p>+20 109 023 7797</p>
+            </div>
+          </a>
+
+          <!-- WhatsApp -->
+          <a href="https://wa.me/201090237797" target="_blank" class="contact-card glass-card">
+            <div class="contact-card-icon">
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <div class="contact-card-details">
+              <h5>WhatsApp Direct</h5>
+              <p>+20 109 023 7797 ⚡</p>
+            </div>
+          </a>
+
+          <!-- GitHub -->
+          <a href="https://github.com/veiler-1" target="_blank" class="contact-card glass-card">
+            <div class="contact-card-icon">
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <div class="contact-card-details">
+              <h5>GitHub Profile</h5>
+              <p>github.com/veiler-1</p>
+            </div>
+          </a>
+
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/ahmed-mohameds" target="_blank" class="contact-card glass-card">
+            <div class="contact-card-icon">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            <div class="contact-card-details">
+              <h5>LinkedIn Profile</h5>
+              <p>linkedin.com/in/ahmed-mohameds</p>
+            </div>
+          </a>
+
+          <!-- Email -->
+          <a href="mailto:am3365568@gmail.com" class="contact-card glass-card">
+            <div class="contact-card-icon">
+              <i class="fa-solid fa-envelope-open-text"></i>
+            </div>
+            <div class="contact-card-details">
+              <h5>Email Address</h5>
+              <p>am3365568@gmail.com</p>
+            </div>
+          </a>
+        </div>
+
+        <!-- Form -->
+        <div class="contact-form-card glass-card">
+          <form id="contact-form">
+            <div class="form-group">
+              <label class="form-label" for="form-name">Your Full Name</label>
+              <input type="text" id="form-name" class="form-input" placeholder="Enter your full name..." required />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="form-email">Email or Phone Number</label>
+              <input type="text" id="form-email" class="form-input" placeholder="name@example.com or phone..." required />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="form-msg">Project Details or Message</label>
+              <textarea id="form-msg" class="form-textarea" placeholder="Tell me about your project or inquiry..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <i class="fa-solid fa-paper-plane"></i> Send Message Now
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer>
+    <div class="container footer-content">
+      <div>
+        <h4 style="font-family: var(--font-heading); font-size: 1.15rem; font-weight: 700;">Ahmed Mohamed Saad</h4>
+        <p style="color: var(--text-muted); font-size: 0.84rem; margin-top: 2px;">
+          © 2026 Ahmed Mohamed Saad. All rights reserved. Designed with care for performance & aesthetics.
+        </p>
+      </div>
+
+      <div class="social-links">
+        <a href="https://wa.me/201090237797" target="_blank" class="social-btn" title="WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="mailto:am3365568@gmail.com" class="social-btn" title="Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ahmed-mohameds" target="_blank" class="social-btn" title="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/veiler-1" target="_blank" class="social-btn" title="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== PROJECT DETAILS MODAL ==================== -->
+  <div id="project-modal" class="modal-backdrop">
+    <div class="modal-container">
+      <button id="modal-close" class="modal-close-btn" aria-label="Close">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div id="modal-body-content">
+        <!-- Loaded dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== PDF GALLERY MODAL ==================== -->
+  <div id="pdf-modal" class="modal-backdrop">
+    <div class="modal-container">
+      <button id="pdf-modal-close" class="modal-close-btn" aria-label="Close">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div id="pdf-gallery-content">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>

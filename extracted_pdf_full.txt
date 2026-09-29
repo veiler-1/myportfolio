@@ -1,0 +1,185 @@
+
+==================== PAGE 1 ====================
+HOME
+ABOUT
+MORE
+AI & SOFTWARE PORTFOLIO
+PAGE 1
+I'm Ahmed 
+Mohamed Saad
+A third-year Artificial Intelligence student at Kafrelsheikh University.
+I'm passionate about Mobile Application Development, Computer
+Networks, Machine Learning,
+ and System Administration. I enjoy learning new technologies,
+building practical solutions, and continuously expanding my skills
+through hands-on projects and real-world experience.
+
+==================== PAGE 2 ====================
+About Me
+Third-year Artificial Intelligence student at Kafrelsheikh
+University, passionate about AI, Mobile Development,
+Backend Engineering, and Computer Networks. I enjoy
+turning ideas into real-world applications, continuously
+learning new technologies, and building scalable, efficient
+software that solves real problems.
+AHMED
+MOHAMED
+HOME
+ABOUT
+MORE
+ AI & SOFTWARE PORTFOLIO
+PAGE 2
+
+==================== PAGE 3 ====================
+My Education 
+Bachelor of Artificial Intelligence
+Faculty of Artificial Intelligence, Kafrelsheikh University
+2023 – Present (Expected Graduation: 2027)
+Currently pursuing a Bachelor's degree in Artificial Intelligence, with a focus on Machine
+Learning, Mobile Application Development, Computer Networks, and System Administration.
+Throughout my studies, I have developed practical experience by building real-world projects
+and continuously expanding my technical skills.
+HOME
+ABOUT
+MORE
+ AI & SOFTWARE PORTFOLIO
+PAGE 3
+
+==================== PAGE 4 ====================
+My Experience
+Completed 
+hands-on 
+training 
+in
+Flutter 
+and 
+mobile 
+application
+development.
+Built 
+cross-platform 
+mobile
+applications and integrated RESTful
+APIs.
+National Telecommunication Institute (NTI)
+Network Member
+Participated 
+in 
+networking
+workshops and technical activities.
+Gained 
+practical 
+knowledge 
+of
+networking 
+concepts 
+and
+infrastructure.
+IEEE Kafrelsheikh Student Branch
+(IEEE KSB)
+AI Head
+Led the AI team and organized
+technical sessions and activities.
+Guided members in AI fundamentals
+and project development.
+STARKS Student Activity
+HOME
+ABOUT
+MORE
+ AI & SOFTWARE PORTFOLIO
+PAGE 3
+
+==================== PAGE 5 ====================
+TECHNICAL SKILLS
+Technologies & areas I work with
+AI & MACHINE LEARNING
+• Machine Learning
+• AI Fundamentals
+• AI Project Development
+MOBILE DEVELOPMENT
+• Flutter
+• Dart
+• REST API Integration
+• BLoC • Clean Architecture
+NETWORKING
+• Computer Networks
+• Network Infrastructure
+• Network Design & Configuration
+BACKEND & TOOLS
+• Backend Development
+• REST APIs
+• Git & GitHub
+• Problem Solving
+AHMED MOHAMED SAAD
+
+==================== PAGE 6 ====================
+NETWORK
+The project represents a bank network with two
+branches:
+Cairo (New Cairo – Fifth Settlement) → Main Branch
+Alexandria → Secondary Branch
+🔹 Main Branch (Cairo) includes 4 departments:
+Hall: 20 PCs
+Customer Service: 50 PCs
+Admins: 13 PCs
+Loans: 20 PCs
+🔹 Alexandria Branch includes 2 departments:
+Operations Vault: 12 PCs
+Admins: 10 PCs
+Backgrounds
+HOME
+ABOUT
+MORE
+ AI & SOFTWARE PORTFOLIO
+PAGE 7
+
+==================== PAGE 7 ====================
+Mobile -APP
+A modern Flutter-based e-commerce
+application with a clean and responsive
+user interface.
+Users can explore products, read reviews,
+and 
+manage 
+their 
+shopping 
+cart
+seamlessly.
+The app integrates REST APIs and follows
+the BLoC pattern with Clean Architecture.
+Built using Flutter, Dart, Dio, and modern
+software development practices.
+Backgrounds
+HOME
+ABOUT
+MORE
+ AI & SOFTWARE PORTFOLIO
+PAGE 8
+
+==================== PAGE 8 ====================
+Let’s Work
+Together
++201090237797
+Phone Number
+am3365568@gmail.com
+Email
+ahmed mohamed
+Social Media
+mansoura
+Address
+HOME
+ABOUT
+MORE
+ AI & SOFTWARE PORTFOLIO
+PAGE 11
+
+==================== PAGE 9 ====================
+THANK
+You
+HOME
+ABOUT
+MORE
+PHOTOGRAPHY PORTFOLIO / 2026
+PAGE 12
+
+==================== PAGE 10 ====================
