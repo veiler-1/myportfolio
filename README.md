@@ -4,7 +4,7 @@ An interactive, modern, and responsive developer portfolio featuring projects in
 
 ## 🚀 Live Demo & Hosting Links
 
-- **Vercel Live Demo:** [https://temporary-rushing-juniper-wmztq8b.vercel.app](https://temporary-rushing-juniper-wmztq8b.vercel.app)
+- **Vercel Live Demo:** [https://temporary-swift-quartz-qata1ix.vercel.app](https://temporary-swift-quartz-qata1ix.vercel.app)
 - **GitHub Repository:** [https://github.com/veiler-1/myportfolio](https://github.com/veiler-1/myportfolio)
 - **Netlify Mirror:** [https://ahmed-veil.netlify.app](https://ahmed-veil.netlify.app)
 - **GitHub Pages:** [https://veiler-1.github.io/myportfolio](https://veiler-1.github.io/myportfolio)
